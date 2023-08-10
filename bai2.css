@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;    
+}
+/* Quang CODE */
+.tong{
+    display: flex;
+    background-color: #DCDCDC;
+}
+.toi{
+    width: 660px;
+    height: 184px;   
+    background-image: linear-gradient(90deg, #25335A, #141824);
+    margin: 64px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;  
+}
+.anhtoi{
+    display: block;
+}
+#anhtoi1{
+    margin-right: 50px;
+    transform: translatey(16px);
+    width: 232px;
+    height: 200px;
+}
+#anhtoi2{
+    margin-right: 30px;
+    transform: translatey(-20px);
+    width: 255.537px;
+    height: 250px;
+}
+#anhtoi3{
+    margin-right: 46px;
+    transform: translatey(-9px);
+    width: 220px;
+    height: 215px;
+}
+#anhtoi4{
+    margin-right: 30px;
+    transform: translatey(-15px);
+    width: 250px;
+    height: 250px;
+}
+#anhtoi5{
+    margin-right: 30px;
+    transform: translatey(-29px);
+    width: 280px;
+    height: 280px;
+}
+.activate{  
+    height: 33px;
+    margin-bottom: 0px;   
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.time{
+    margin-top: 0px;
+    height: 44;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.conten{
+    height: 77px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    margin-left: 40px;
+    margin-bottom: 35px;
+    margin-top: 46px;
+}
+/* Phát CODE */
+#phansang{
+    transform: translateY(40px);
+}
+.block{
+    box-sizing: border-box;
+    height: 184px;
+    width: 660px;
+    border-radius: 16px;
+    background: white;
+    margin-bottom: 64px;
+    position: relative;
+}
+.block .content{
+    box-sizing: border-box;
+    height: 33px;
+    width: 270px;
+    top: 72px;
+    left: 40px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Open Sans;
+    color: #B65741;
+    translate: 40px 72px;
+    line-height: 32.68px;
+}
+.block .content2{
+    box-sizing: border-box;
+    height: 44px;
+    width: 263px;
+    translate: 40px 35px;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: Open Sans;
+    color: #B65741;
+    line-height: 43.58px;
+}
+.block #pic1{
+    height: 216px;
+    width: 384px;
+    position: absolute;
+    top: 14px;
+    left: 305px;
+}
+.block #pic2{
+    height: 250px;
+    width: 255.54px;
+    position: absolute;
+    top: -3px;
+    left: 354px;
+}
+.block #pic3{
+    height: 215px;
+    width: 220px;
+    position: absolute;
+    top: -3px;
+    left: 375px;
+}
+.block #pic4{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: -12px;
+    left: 372px;
+}
+.block #pic5{
+    height: 280px;
+    width: 280px;
+    position: absolute;
+    top: -24px;
+    left: 338px;
+}
+
